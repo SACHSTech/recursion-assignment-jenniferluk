@@ -1,4 +1,5 @@
 package recursionAssignment;
+import java.io.*;
 /**
 * @author: J. Luk
 *
@@ -20,8 +21,18 @@ public class Recursion{
     }else if (intN % 10 == 8) {
       return 1 + count8(intN / 10);
     
+    // If the rightmost digit is not 8, then remove it and run through the method again
     }else {
       return count8(intN/10);
     }
   }
+  /**
+  * Given a string, compute recursively (no loops) a new string where all appearances of "pi" have been replaced by "3.14".
+  * @param str, the string with appearances of "pi"
+  * @return string with "pi" replaced with "3.14"
+  */
+  public static String changePi(String str){
+
+  }
+
 }
