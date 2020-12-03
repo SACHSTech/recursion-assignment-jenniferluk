@@ -33,14 +33,15 @@ public class Recursion{
   public static String changePi(String str){
     
     // Base case, if the string length is less than or equal to 1, then "pi" is not present
-    if(str.length() <= 1){
+    if(str.length() <= 1) {
       return str; 
 
     // Recursive step, otherwise if the first 2 characters are "pi" replace it with "3.14" and repeat the method without "pi"
-    }else if(str.substring(0,2).equals("pi")){
+    }else if (str.substring(0,2).equals("pi")) {
       return "3.14" + changePi(str.substring(2));
     }
 
+    // if the string does not contain "pi" in the beginning, the program repeats itself after the first character
     return str.substring(0,1) + changePi(str.substring(1));
   }
 
