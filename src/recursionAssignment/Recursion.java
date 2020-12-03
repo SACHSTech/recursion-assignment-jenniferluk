@@ -15,7 +15,11 @@ public class Recursion{
     // Base case, if the number is 0, return 0
     if (intN == 0) {
       return 0;
+    
+    // Recursive step, otherwise check if the rightmost digit is 8
+    }else if (intN % 10 == 8) {
+      return 1 + count8(intN / 10);
+    
     }
-
   }
 }

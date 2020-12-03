@@ -19,7 +19,11 @@ public class RecursionTest{
         // make assertion statement(s)
         assertEquals(0,Recursion.count8(0));
     }
-    
+    @Test
+    public void Test2(){
+        // make assertion statement(s)
+        assertEquals(1,Recursion.count8(8));
+    }
     // add more tests
     
     @After
