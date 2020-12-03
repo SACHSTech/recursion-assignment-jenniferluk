@@ -71,6 +71,13 @@ public class RecursionTest{
     }  
 
 
+    // Problem 3 Tests
+    @Test
+    public void Test10(){
+        // make assertion statement(s)
+        assertTrue(Recursion.array220(new int[] {1, 2, 20},0));
+    }  
+
 
     @After
     public void afterTest(){
