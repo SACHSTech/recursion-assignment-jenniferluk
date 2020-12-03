@@ -13,15 +13,11 @@ public class RecursionTest{
       // some steps to perform before tests are run
     }
     
-    /**
-     * An initial test
-     */
+    // Check if Base Case works
     @Test
     public void Test1(){
         // make assertion statement(s)
-        // assertEquals(EXPECTEDVALUE, TESTVALUE);
-        // assertTrue(TESTBOOLEAN);
-        assertEquals(0,Recursion.count8(10));
+        assertEquals(0,Recursion.count8(0));
     }
     
     // add more tests
