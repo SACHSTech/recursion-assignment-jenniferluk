@@ -52,8 +52,8 @@ public class Recursion{
   * @return if the array contains a value 10 times than previous values
   */
   public static boolean array220(int[] intNums, int index){
-    // Base Case, if there is nothing in the array return false
-    if (index == intNums.length)
+    // Base Case, if there is nothing or only one number in the array return false
+    if (index >= intNums.length - 1)
       return false; 
 
     // Recursive step, check if the number after is 10 times the prev. values and keep running the program to see if the next numbers are 10 times prev. values 

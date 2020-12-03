@@ -90,6 +90,12 @@ public class RecursionTest{
         assertTrue(Recursion.array220(new int[] {3, 30},0));
     }  
 
+    @Test
+    public void Test13(){
+        // make assertion statement(s)
+        assertFalse(Recursion.array220(new int[] {3},0));
+    }  
+
 
 
 
