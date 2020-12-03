@@ -20,6 +20,7 @@ public class Recursion{
     }else if (intN % 10 == 8) {
       return 1 + count8(intN / 10);
     
+    // If the rightmost digit is not 8, then remove it and run through the method again
     }else {
       return count8(intN/10);
     }
