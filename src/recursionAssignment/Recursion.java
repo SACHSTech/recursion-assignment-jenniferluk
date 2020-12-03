@@ -20,6 +20,8 @@ public class Recursion{
     }else if (intN % 10 == 8) {
       return 1 + count8(intN / 10);
     
+    }else {
+      return count8(intN/10);
     }
   }
 }
