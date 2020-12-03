@@ -1,10 +1,10 @@
 package recursionAssignment;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Before;
-import org.junit.jupiter.api.After;
+import org.junit.Before;
+import org.junit.After;
 
-import rename-package.Main;
+import recursionAssignment.Recursion;
 
 public class RecursionTest{
     
@@ -21,6 +21,7 @@ public class RecursionTest{
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
+        assertEquals(1,Recursion.count8(8));
     }
     
     // add more tests
