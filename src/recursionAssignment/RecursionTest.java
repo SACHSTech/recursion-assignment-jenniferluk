@@ -49,7 +49,7 @@ public class RecursionTest{
     @Test
     public void Test6(){
         // make assertion statement(s)
-        assertEquals("3.14",Recursion.changePi("pi"));
+        assertEquals("",Recursion.changePi(""));
     }  
 
     @After

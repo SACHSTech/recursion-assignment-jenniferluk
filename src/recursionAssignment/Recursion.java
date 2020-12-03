@@ -33,6 +33,11 @@ public class Recursion{
   */
   public static String changePi(String str){
 
+    // Base case, if the string length is less than or equal to 1, then "pi" is not present
+    if(str.length() == 0){
+      return ""; 
+    }
+    return "";
   }
 
 }
