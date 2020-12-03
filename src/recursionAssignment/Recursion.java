@@ -55,6 +55,15 @@ public class Recursion{
     // Base Case, if there is nothing in the array return false
     if (index == intNums.length)
       return false; 
+
+    // Recursive step, check if the number after is 10 times the prev. values and keep running the program to see if the next numbers are 10 times prev. values 
+    if (intNums[index+1] == 10 * intNums[index] || array220(intNums, index +1)) {
+      return true;
+    }
+    // Neither
+    return false; 
+
+     
   }
  
 }
