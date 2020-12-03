@@ -45,4 +45,19 @@ public class Recursion{
     return str.substring(0,1) + changePi(str.substring(1));
   }
 
+  /**
+  * Determine whether the given array a value followed in the array by that value times 10.
+  * @param intNums, the array that is read
+  * @param index, the current starting index
+  * @return if the array contains a value 10 times than previous values
+  */
+  public static boolean array220(int[] intNums, int index){
+
+    // Base Case, if there is nothing in the array return false
+    if (index == intNums.length){
+    return false; 
+    }
+    return false; 
+  }
+
 }
