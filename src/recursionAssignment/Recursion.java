@@ -52,7 +52,9 @@ public class Recursion{
   * @return if the array contains a value 10 times than previous values
   */
   public static boolean array220(int[] intNums, int index){
-    
+    // Base Case, if there is nothing in the array return false
+    if (index == intNums.length)
+      return false; 
   }
  
 }
