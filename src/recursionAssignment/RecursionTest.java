@@ -29,7 +29,14 @@ public class RecursionTest{
     public void Test3(){
         // make assertion statement(s)
         assertEquals(2,Recursion.count8(818));
-    }    
+    }  
+
+    @Test
+    public void Test4(){
+        // make assertion statement(s)
+        assertEquals(3,Recursion.count8(8818));
+    }  
+    
     @After
     public void afterTest(){
       // some steps to perform after tests are run
