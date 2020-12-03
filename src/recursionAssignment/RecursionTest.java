@@ -64,6 +64,12 @@ public class RecursionTest{
         assertEquals("3.143.14",Recursion.changePi("pipi"));
     }  
 
+    @Test
+    public void Test9(){
+        // make assertion statement(s)
+        assertEquals("3.14p",Recursion.changePi("pip"));
+    }  
+
 
 
     @After
