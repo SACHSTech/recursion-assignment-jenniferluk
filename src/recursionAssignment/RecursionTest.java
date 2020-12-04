@@ -17,59 +17,68 @@ public class RecursionTest{
     // Check if Base Case works
     @Test
     public void Test1(){
-        // make assertion statement(s)
-        assertEquals(0,Recursion.count8(0));
+      // make assertion statement(s)
+      assertEquals(0,Recursion.count8(0));
     }
     
+    // 
     @Test
     public void Test2(){
-        // make assertion statement(s)
-        assertEquals(1,Recursion.count8(8));
+      // make assertion statement(s)
+      assertEquals(1,Recursion.count8(8));
     }
 
     @Test
     public void Test3(){
-        // make assertion statement(s)
-        assertEquals(2,Recursion.count8(818));
+      // make assertion statement(s)
+      assertEquals(2,Recursion.count8(818));
     }  
 
     @Test
     public void Test4(){
-        // make assertion statement(s)
-        assertEquals(3,Recursion.count8(8818));
+      // make assertion statement(s)
+      assertEquals(3,Recursion.count8(8818));
     }  
 
+    // Test a case without 8
     @Test
     public void Test5(){
-        // make assertion statement(s)
-        assertEquals(0,Recursion.count8(126));
+      // make assertion statement(s)
+      assertEquals(0,Recursion.count8(126));
     }  
 
     // Problem 2 Tests
     @Test
+    // Check if Base Case works
     public void Test6(){
-        // make assertion statement(s)
-        assertEquals("p",Recursion.changePi("p"));
+      // make assertion statement(s)
+      assertEquals("p",Recursion.changePi("p"));
     }  
 
     @Test
     public void Test7(){
-        // make assertion statement(s)
-        assertEquals("x3.14x",Recursion.changePi("xpix"));
+      // make assertion statement(s)
+      assertEquals("x3.14x",Recursion.changePi("xpix"));
     }  
 
     @Test
     public void Test8(){
-        // make assertion statement(s)
-        assertEquals("3.143.14",Recursion.changePi("pipi"));
+      // make assertion statement(s)
+      assertEquals("3.143.14",Recursion.changePi("pipi"));
     }  
 
     @Test
     public void Test9(){
-        // make assertion statement(s)
-        assertEquals("3.14p",Recursion.changePi("pip"));
+      // make assertion statement(s)
+      assertEquals("3.14p",Recursion.changePi("pip"));
     }  
 
+    // Tests complex case
+    @Test
+    public void Test9_1(){
+      // make assertion statement(s)
+      assertEquals("3.14pxxx3.14abc3.14paa",Recursion.changePi("pipxxxpiabcpipaa"));
+    }  
 
     // Problem 3 Tests
     @Test
