@@ -1,18 +1,11 @@
 package recursionAssignment;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import org.junit.Before;
-import org.junit.After;
 
 import recursionAssignment.Recursion;
 
 public class RecursionTest{
-    
-    @Before
-    public void beforeTest(){
-      // some steps to perform before tests are run
-    }
-    
+       
     // Problem 1 Tests
     
     // Check if Base Case works
@@ -113,11 +106,5 @@ public class RecursionTest{
         // make assertion statement(s)
         assertFalse(Recursion.array220(new int[] {3},0));
     }  
-
-    @After
-    public void afterTest(){
-      // some steps to perform after tests are run
-    }
-    
     
 }
