@@ -1,6 +1,8 @@
 package recursionAssignment;
+
 import java.io.*;
 /**
+* A file containing recursion functions
 * @author: J. Luk
 *
 */
@@ -63,7 +65,7 @@ public class Recursion{
       return true;
     }
 
-    // Neither
+    // If neither, then return false
     return false; 
 
   }
