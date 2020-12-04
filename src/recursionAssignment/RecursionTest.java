@@ -45,7 +45,7 @@ public class RecursionTest{
     @Test
     public void Test1_6(){
       // make assertion statement(s)
-      assertEquals(6,Recursion.count8(1234886767318978868));
+      assertEquals(4,Recursion.count8(168982878));
     }  
 
     // Problem 2 Tests
