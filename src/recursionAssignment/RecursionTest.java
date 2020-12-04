@@ -14,6 +14,7 @@ public class RecursionTest{
     }
     
     // Problem 1 Tests
+    
     // Check if Base Case works
     @Test
     public void Test1(){
@@ -21,7 +22,7 @@ public class RecursionTest{
       assertEquals(0,Recursion.count8(0));
     }
     
-    // 
+     
     @Test
     public void Test2(){
       // make assertion statement(s)
@@ -48,8 +49,9 @@ public class RecursionTest{
     }  
 
     // Problem 2 Tests
-    @Test
+    
     // Check if Base Case works
+    @Test
     public void Test6(){
       // make assertion statement(s)
       assertEquals("p",Recursion.changePi("p"));
@@ -104,10 +106,7 @@ public class RecursionTest{
         // make assertion statement(s)
         assertFalse(Recursion.array220(new int[] {3},0));
     }  
-
-
-
-
+    
     @After
     public void afterTest(){
       // some steps to perform after tests are run
