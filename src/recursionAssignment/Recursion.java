@@ -50,7 +50,7 @@ public class Recursion{
   }
 
   /**
-  * Determine whether the given array a value followed in the array by that value times 10.
+  * Determine whether the given array has a value followed in the array by that value times 10.
   * @param intNums, the array that is read
   * @param index, the current starting index
   * @return if the array contains a value 10 times than previous values
@@ -70,4 +70,4 @@ public class Recursion{
 
   }
  
-}
+}([1, 2, 20], 0) → true
